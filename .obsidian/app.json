@@ -1,0 +1,28 @@
+{
+  "spellcheck": true,
+  "strictLineBreaks": true,
+  "showFrontmatter": true,
+  "useMarkdownLinks": true,
+  "spellcheckDictionary": [
+    "rollout",
+    "datacenter",
+    "powershell",
+    "Kubernetes",
+    "APIs",
+    "js",
+    "Serverless",
+    "virtualised",
+    "PaaS",
+    "postgres",
+    "IoT",
+    "SaaS",
+    "Databricks",
+    "HDInsight",
+    "DevOps",
+    "kanban",
+    "DevTest",
+    "VNet",
+    "IaaS",
+    "webpage"
+  ]
+}
