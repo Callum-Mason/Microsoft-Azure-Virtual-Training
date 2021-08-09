@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "cc17454e060074aa",
+        "id": "1cb445e85303ce9e",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -86,8 +86,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cc17454e060074aa",
+  "active": "1cb445e85303ce9e",
   "lastOpenFiles": [
-    "ReadMe.md"
+    "ReadMe.md",
+    "images/Microsoft Azure Virtual Training - Fundamentals/2021-08-04 10_04_48-Window.png",
+    "Microsoft Azure Virtual Training.md",
+    "images/Availability zones.png",
+    "images/Reqion Pairs.png",
+    "images/Course Agenda.png",
+    "images/2021-08-04 10_04_48-Window.png",
+    "images/2021-08-04 10_04_11-Window.png",
+    "Untitled.md"
   ]
 }

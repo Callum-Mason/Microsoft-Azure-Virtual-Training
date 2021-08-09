@@ -23,6 +23,21 @@
     "DevTest",
     "VNet",
     "IaaS",
-    "webpage"
+    "webpage",
+    "DDoS",
+    "https",
+    "www",
+    "trustcenter",
+    "microsoft",
+    "Biometrics",
+    "HSMs",
+    "NSGs",
+    "stateful",
+    "Auth",
+    "cyber",
+    "FedRAMP",
+    "lifecycles",
+    "SLAs",
+    "uptime"
   ]
 }
