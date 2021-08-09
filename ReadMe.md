@@ -108,12 +108,12 @@
 
 ### Agenda
 
-- Time Session Content 
-	- 10.00 – 10.03 Introduction 
-	- 10.03 – 11.13  Azure Cloud Concepts Core Azure Services
-	- 11.13 – 11.23 Break-10 minutes
-	- 11.23 – 11.40 Azure Solutions and Management Tools 
-	- 11.40 – 12.10 Closing Q&A
+- Time Session Content
+  - 10.00 – 10.03 Introduction
+  - 10.03 – 11.13  Azure Cloud Concepts Core Azure Services
+  - 11.13 – 11.23 Break-10 minutes
+  - 11.23 – 11.40 Azure Solutions and Management Tools
+  - 11.40 – 12.10 Closing Q&A
 
 ### Q&A
 
@@ -498,27 +498,24 @@ Azure Monitor maximizes the availability and performance of applications and ser
 - automation actions
 - customizes dashboards
 
-
 ## Day 2
 
 ### Agenda
 
 Agenda for today
 
-- Time Session Content 
-	- 10.00 – 10.03 Introduction 
-	- 10.03 – 11.20 Azure Security and Network Security Identity, governance, privacy and compliance 
-	- 11.20 – 11.30 Break-10 minutes 
-	- 11.30 – 12.00 Azure Pricing and Lifestyle 
-	- 12.00 – 12.30 Closing Q&A
-
+- Time Session Content
+  - 10.00 – 10.03 Introduction
+  - 10.03 – 11.20 Azure Security and Network Security Identity, governance, privacy and compliance
+  - 11.20 – 11.30 Break-10 minutes
+  - 11.30 – 12.00 Azure Pricing and Lifestyle
+  - 12.00 – 12.30 Closing Q&A
 
 ### Q&A
 
 **Good Morning!**
 
 Hello everyone! Thank you for joining the Azure Fundamentals Part 2 Training day today. There is a list of resources available on your screen now. Please feel free to ask the speaker questions within this chat box. If you are having technical issues, please click the question mark, Help widget on your screen now. After the session ends, please make sure to fill out the survey as your feedback is much appreciated. Please do keep an eye on the Microsoft UK Training Days webpage for more events coming up [https://www.microsoft.com/en-gb/events/training-days](https://www.microsoft.com/en-gb/events/training-days)/ . Enjoy the session! – 'The Microsoft Training Days' Event Team
-
 
 **Azure Fundamentals Fun Path**
 
@@ -528,19 +525,17 @@ Azure Fundamentals Path - [http://aka.ms/azfunpath](http://aka.ms/azfunpath)
 
 Once you have completed both Part 1 and Part 2 of this training you are eligible to take the Microsoft Azure Fundamentals certification exam at no cost. You will receive a 'Thank You' email in the next 5 working days with steps on how you can claim and schedule your exam, you will have one attempt to take the exam. Please ensure to check your junk mail box in case the email finds it way there. Thanks
 
-
 ### Module 4 Azure Security and network security
 
 #### Outline
 
 - Azure Security features
-	- Security center and resource hygiene
-	- key vault, sentinel and Dedicated hosts
+  - Security center and resource hygiene
+  - key vault, sentinel and Dedicated hosts
 - Azure network security
-	- defense in depth
-	- Network Security Groups and Firewalls
-	- DDoS Protection
-
+  - defense in depth
+  - Network Security Groups and Firewalls
+  - DDoS Protection
 
 #### Azure Security Center
 
@@ -556,13 +551,13 @@ Azure Security Center is a monitoring service that provides threat protection ac
 ##### Azure Security Center capabilities
 
 - Policy Compliance
-	- Run policies across management groups, subscripts or tenants
+  - Run policies across management groups, subscripts or tenants
 - Continuous Assessments
-	- Assess new deployed resources to ensure that they are configure properly
+  - Assess new deployed resources to ensure that they are configure properly
 - Tailored Recommendations
-	- Recommendations based on existing workloads with instructions on how to implement them
+  - Recommendations based on existing workloads with instructions on how to implement them
 - Threat Protection
-	- Analyze attempted threats through alerts and impacted resource reports
+  - Analyze attempted threats through alerts and impacted resource reports
 
 #### Azure Sentinel
 
@@ -571,11 +566,10 @@ Azure Security Center is a monitoring service that provides threat protection ac
 Azure sentinel is a security information management (SIEM) and security automated response solutions that provides security analytic and threat intelligence across an enterprise
 
 - Connector and Integration
-	- O365
-	- Azure AD
-	- Azure Advanced threat protections
-	- Microsoft cloud app security
-
+  - O365
+  - Azure AD
+  - Azure Advanced threat protections
+  - Microsoft cloud app security
 
 #### Azure Key Vault
 
@@ -593,10 +587,9 @@ Azure Dedicated host provides physical server that host one or more azure virtua
 Virtual Scale Set are not supported.
 
 - Benefits
-	- Hardware isolation at the server level
-	- Control over maintenance event timing
-	- Aligned with Azure Hybrid Use Benefits
-
+  - Hardware isolation at the server level
+  - Control over maintenance event timing
+  - Aligned with Azure Hybrid Use Benefits
 
 #### Secure network connectivity
 
@@ -615,7 +608,6 @@ Virtual Scale Set are not supported.
 - Migration from customer controlled to cloud based datacenter shifts the responsibility for security
 - Security becomes a shared concern between cloud providers and customers
 
-
 #### Network security Groups (NSGs)
 
 Network security groups filter network traffic to and from azure resources on azure virtual networks
@@ -628,9 +620,8 @@ lower the number, the higher the priority
 - Azure applies default, baseline security rules to new NSGs
 - Override default rules with new, higher priority rules
 
-
-
 #### Azure Firewall
+
 A stateful managed firewall as a service that grants/denies server access based on originating IP address in order to protect network resources
 
 - Applied inbound and outbound traffic filtering rules
@@ -655,51 +646,50 @@ DDoS attacks overwhelm and exhaust network resources making apps slow or unrespo
 ![image](/images/Microsoft%20Azure%20Virtual%20Training%20-%20Fundamentals/Defense%20in%20depth.png)
 
 Combining network security solutions
+
 - **NSGs** with **Azure Firewall** to achieve defense in depth
 - **Perimeter Layer** protects your network boundaries with Azure DDoS Protection and Azure Firewall
 - **Network Layer** only permits traffic to pass between networked resources with Network Security Group (NSG) inbound and outbound rules
 
-
-### Module 5 Identity, governance, privacy and compliance 
+### Module 5 Identity, governance, privacy and compliance
 
 #### outline
 
 - Azure identity services
-	- Authentication versus authorization
-	- Azure AD, MFA, SSO and conditional Access
+  - Authentication versus authorization
+  - Azure AD, MFA, SSO and conditional Access
 - Azure governance features
-	- RBAC
-	- Resource locks and tags
-	-Policy, blueprints and CAF
+  - RBAC
+  - Resource locks and tags
+ -Policy, blueprints and CAF
 - Azure privacy and compliance
-	- Privacy Statement and online services terms
-	- Trust center and compliance documentation
-	- Azure Sovereign regions
+  - Privacy Statement and online services terms
+  - Trust center and compliance documentation
+  - Azure Sovereign regions
 
 #### Compare Authentication and authorization
 
 - Authentication
-	- Identifies the person or service seeking access to a resource
-	- requests legitimate access credentials
-	- basis for creating securing identity and access control principles
+  - Identifies the person or service seeking access to a resource
+  - requests legitimate access credentials
+  - basis for creating securing identity and access control principles
 - Authorization
-	- Determine an authenticated persons or services level of access
-	- defines which data the can access and what they can do with it
-
+  - Determine an authenticated persons or services level of access
+  - defines which data the can access and what they can do with it
 
 #### Azure Multi-Factor Authentication
 
 Provides additional security for your identities by requiring two or more elements for full authentication. Azure currently only supports **something you know** and **something you possess**
 
 - Something you know
-	- password
-	- security questions
+  - password
+  - security questions
 - Something you possess
-	- Auth apps,
-	- OTP
-	- keys
+  - Auth apps,
+  - OTP
+  - keys
 - Something you are
-	- Biometrics
+  - Biometrics
 
 #### Azure Active Directory
 
@@ -711,7 +701,6 @@ Azure active directory is Microsoft azure cloud based identity and access manage
 - Business to Business (B2B)
 - Business to customer (B2C) identity service
 - Device management
-
 
 #### Conditional Access
 
@@ -743,11 +732,9 @@ Think of them like IF/THEN Statements
 - Manage locks at subscripts, resource groups, or individual levels within azure portal
 
 | Lock Types   | Read    | update    | Delete |
-| : --------:  | : ----: | : ------: | : ---: | 
+| : --------:  | : ----: | : ------: | : ---: |
 | CanNotDelete | Yes     | Yes       | No     |
 | ReadOnly     | Yes     | No        | No     |
-
-
 
 #### Tags
 
@@ -783,70 +770,67 @@ Azure Policy helps to enforce organizational standards and to access compliance 
 - best practices from Microsoft employees, Partners and customers
 - Tools, guidance and narratives for strategies and outcomes
 
-
 #### Privacy, Compliance and data protection standards
 
 #### Security, Privacy and compliance
 
 - Security
-	- secure by design. with built in intelligent security, Microsoft helps to protect against known and unknown cyber threats, using automation and artificial intelligence
+  - secure by design. with built in intelligent security, Microsoft helps to protect against known and unknown cyber threats, using automation and artificial intelligence
 - Privacy
-	- We are committed to ensure the privacy of organizations though our contractual agreements and by providing user control and transparency
+  - We are committed to ensure the privacy of organizations though our contractual agreements and by providing user control and transparency
 - Compliance
-	- We respect local laws and regulations and provide comprehensive coverage of compliance offerings
-
+  - We respect local laws and regulations and provide comprehensive coverage of compliance offerings
 
 #### Compliance terms and requirements
+
 Microsoft provides the most comprehensive set of compliance offers (including certifications and attestations) of ant cloud service provider. some compliance offerings include
 
-- Criminal Justice Information services (CJIS) 
-- Health Insurance Portability and Accountability Act (HIIPAA) 
+- Criminal Justice Information services (CJIS)
+- Health Insurance Portability and Accountability Act (HIIPAA)
 - CSA STAR Certification
 - ISO/IEC 27018
 - Eu Model Clauses
 - National Institute of Standards and Technology (NIST)
 
-
 #### Azure Compliance Documentation
 
 Microsoft offices a comprehensive set of compliance offering to help your organization comply with national, regional and industry specific requirements that govern the collection and use of data
-
 
 #### Microsoft privacy statement
 
 The Microsoft privacy statement provides openness and honesty about how Microsoft handles the user data collected from its products and services
 
 The Microsoft privacy statement explains
+
 - What data Microsoft processes
 - How Microsoft processes it
 - What purposes the data is used for
 
-
 #### Online Services Terms and Data Protection Addendum
 
 - Online services Terms
-	- The licensing terms define the terms and conditions for the products and online services you purchase though microsoft volume licensing programs
+  - The licensing terms define the terms and conditions for the products and online services you purchase though microsoft volume licensing programs
 - Data protection addendum
-	- The DPA sets forth the obligations with respect to the processing and security of customer Data and Personal Data in connection with the online services
-
+  - The DPA sets forth the obligations with respect to the processing and security of customer Data and Personal Data in connection with the online services
 
 #### Trust Center
 
 Learn about security, privacy, compliance, policies, features and practices across Microsoft cloud products
 
 The Trust center website provides
+
 - In-depth expert information
 - curated lists of recommended resources arranged by topic
 - role-specific information for business managers, administrators, engineers, risk assessors, privacy officers and legal teams
 
 [https://www.microsoft.com/trustcenter](https://www.microsoft.com/trustcenter)
 
-
 #### Azure Sovereign Regions (US Government services)
 
 Meets the security and compliance needs of US federal agencies, state and local governments and their solutions provides
 
 Azure Government
+
 - Separate instance of azure
 - Physically isolated from non-US government deployments
 - Accessible only to screened, authorized personnel
@@ -858,23 +842,22 @@ Examples of compliant standards: FedRAMP, NIST 800.171 (DIB), ITAR, IRS 1075, Do
 Microsoft is CHina's first foreign public cloud service provider in compliance with government regulations
 
 Azure China features
+
 - Physically separated instance of azure cloud services operated by 21Vianet
 - All data stays within china to ensure compliance
 
-
 ### Module 6 Azure Pricing and Lifestyle
-
 
 #### Outline
 
 - Methods for managing costs
-	- Factors affecting costs
-	- Options to reduce and control costs
-	- Azure costs management
+  - Factors affecting costs
+  - Options to reduce and control costs
+  - Azure costs management
 - Service Level Agreements and lifecycles
-	- Azure Service level agreement (SLA)]
-	- Factors impacting SLAs
-	- Azure Product and feature lifecycles
+  - Azure Service level agreement (SLA)]
+  - Factors impacting SLAs
+  - Azure Product and feature lifecycles
 
 #### Planning and Cost management
 
@@ -882,19 +865,18 @@ Azure China features
 
 There are six primary factors affecting costs:
 
-- Resource Types 
-	-  Costs are Resource specific, so the usage that a meter tracks and the number of meters associated with a resource, depend on the resource types
+- Resource Types
+  - Costs are Resource specific, so the usage that a meter tracks and the number of meters associated with a resource, depend on the resource types
 - services
-	- Azure usage rates and billing periods can differ between Enterprise, Web Direct and CSP Customers
--  Location 
-	-  The Azure infrastructure is globally distributed and usage costs might vary between locations that offer Azure products services and resources
--  bandwidth
-	-  Some inbound data transfers are free, such as data going into azure datacenter. For outbound data transfers such as data going out of the datacenter, pricing is based on zones
--  Reserved Instance
-	-  With Azure Reservations, you commit to buying one year to three year plans for multiple products reservations can significantly reduce your resource costs up to 72% on pay as you go prices
--  Azure Hybrid Use Benefits
-	-  For customers with software assurance, Azure hybrid benefit allows you to use your on-premises licenses on Azure at a reduced cost
-
+  - Azure usage rates and billing periods can differ between Enterprise, Web Direct and CSP Customers
+- Location
+  - The Azure infrastructure is globally distributed and usage costs might vary between locations that offer Azure products services and resources
+- bandwidth
+  - Some inbound data transfers are free, such as data going into azure datacenter. For outbound data transfers such as data going out of the datacenter, pricing is based on zones
+- Reserved Instance
+  - With Azure Reservations, you commit to buying one year to three year plans for multiple products reservations can significantly reduce your resource costs up to 72% on pay as you go prices
+- Azure Hybrid Use Benefits
+  - For customers with software assurance, Azure hybrid benefit allows you to use your on-premises licenses on Azure at a reduced cost
 
 #### Pricing Calculator
 
@@ -907,14 +889,12 @@ The Pricing calculator is a tool that helps you estimate the cost of azure produ
 
 [https://azure.microsoft.com/en-gb/pricing/calculator/](https://azure.microsoft.com/en-gb/pricing/calculator/)
 
-
 #### Total Cost of ownership Calculator
 
 ![image](/images/Microsoft%20Azure%20Virtual%20Training%20-%20Fundamentals/Total%20Cost%20of%20ownership%20Calculator.png)
 
 - A tool to estimate cost saving you can realize by migrating to azure
 - A report compares the cost of on premises infrastructure with the costs of using Azure Products and services in the cloud
-
 
 #### Azure Cost Management
 
@@ -923,8 +903,6 @@ The Pricing calculator is a tool that helps you estimate the cost of azure produ
 - Budgets  - set spend budget
 - Alerting - when cost exceed limits
 - Recommendation - cost recommendations
-
-
 
 #### Minimizing Costs
 
@@ -940,16 +918,14 @@ Service level agreements describes Microsoft's commitments for uptime and connec
 - Detailed agreements on the service provided and any exceptions to the SLA
 - Free and preview features/services do not offer SLAs
 
-
 #### SLA for azure products and services
 
 - Performance targets are expressed as uptime and connectivity guarantees
 - Performance targets range from 99% to 99.999%
 - if service fails to meet the guarantees a percentage for the monthly service fees can be credited
 
-
 | SLA | Downtime per month |
-| :--: | :-- | 
+| :--: | :-- |
 | 99% | 7h 18m 17s |
 | 99.5% | 3h 39m 8s |
 | 99.9% | 43m 49s |
@@ -960,24 +936,22 @@ Service level agreements describes Microsoft's commitments for uptime and connec
 #### Actions that affects SLA
 
 - lower your SLA
-	- Adding more services
-	- choosing free or non-SLA services
+  - Adding more services
+  - choosing free or non-SLA services
 - Raise your SLA
-	- Availability Zones
-	- Redundant systems
+  - Availability Zones
+  - Redundant systems
 
 Many factors can raise or lower your SLA. Design decisions based on business goals will drive your SLA goals
-
 
 #### Azure Preview Program
 
 With Azure previews, users can test beta and other pre-release features, products, services, software and regions to provide feedback. Does not have any SLA.
 
 - Public preview
-	- All Azure customers can evaluate the new features
+  - All Azure customers can evaluate the new features
 - Generally available (GA)
-	- After public preview is complete all customers can use the feature and region availability will vary
-
+  - After public preview is complete all customers can use the feature and region availability will vary
 
 #### Monitoring services and feature updates
 
@@ -985,5 +959,3 @@ With Azure previews, users can test beta and other pre-release features, product
 - View details about azure updates and their status
 - Browse and search for updates
 - Subscribe to Azure update notifications by RSS
-
-
